@@ -9,3 +9,26 @@ body {
 h1 {
   color: darkgreen;
 }
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 10px;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: lightgreen;
+}
