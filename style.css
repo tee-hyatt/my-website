@@ -36,8 +36,8 @@ h1 {
 #roypet {
   position: fixed;
   width: 100px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   transition: transform 0.8s ease;
+  z-index: 9999;
 }
