@@ -32,3 +32,12 @@ h1 {
 .navbar a:hover {
   color: lightgreen;
 }
+
+#roypet {
+  position: fixed;
+  width: 80px;
+  pointer-events: none; /* cant clickd */
+  transition: transform 1s linear;
+  z-index: 9999;
+}
+
