@@ -1,11 +1,8 @@
-const pet = document.getElementById("roypet");
-
 function movePet() {
-  const x = Math.random() * (window.innerWidth - 100);
-  const y = Math.random() * (window.innerHeight - 100);
+  const margin = 150;
+
+  const x = margin + Math.random() * (window.innerWidth - margin * 2);
+  const y = margin + Math.random() * (window.innerHeight - margin * 2);
 
   pet.style.transform = `translate(${x}px, ${y}px)`;
 }
-
-setInterval(movePet, 2000);
-movePet();
