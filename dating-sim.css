@@ -1,0 +1,64 @@
+/* center everything on screen */
+body.sim {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #1f1b2e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* main game container */
+.game {
+  width: 600px;
+  max-width: 90%;
+  background: #2d2540;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* character section */
+.character img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+/* dialogue box */
+.dialogue-box {
+  margin-top: 15px;
+  padding: 15px;
+  background: #3a3055;
+  border-radius: 10px;
+}
+
+/* choices */
+.choices {
+  margin-top: 15px;
+}
+
+.choices button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.choices button:hover {
+  background: pink;
+  color: black;
+}
+
+/* back link */
+.back {
+  display: block;
+  margin-top: 15px;
+  color: pink;
+  text-decoration: none;
+}
